@@ -1,0 +1,46 @@
+[.] Create directory structure
+[.] Create Npm project and all dependencies
+      -Dependencies
+         -express
+         -ejs express-ejs-layouts
+      -Dev dependencies
+        -nodemon   
+[.] Create express server - create a server.js file
+[.] Git setup and first commit   
+[.] install Laravel mix 
+   -setup js and scss   
+ [.]install tailwind css
+ [.] Create home page using html and css
+ [.] Create cart page
+ [.] move routes to routes files
+ [.] create dedicated controllers
+ [.] Add to cart functionality
+ -fetch all pizzas from db and show on home page
+ -create menu model and put dummy data:
+     -connect to mongodb
+     -use connect mongo for session store
+      -dependencies
+      -moongose,express-session,connect-mongo,dotenv
+      -axios to send ajax request
+      -install notification library npm i noty
+  [.] Create login page with routes
+  [.]Create register page with route
+  [.]Build register crud
+    -dependencies express-flash express-session-dotenv
+    -status code article
+  [.]Build login using passport
+    -install dependencies passport passport-local express-session
+  [.] Create order controller and link it to server.js
+  [.] Create orders view with table for customer and admin
+  [.] Place order functionality
+  [.] Show all my orders on customer order page
+  [.] show orders on admin page
+  [.] Chane order status
+  [.] Create orders single page with status
+  [.] order tracker
+   -dependencies moment
+  [.] Socket connection
+    -dependencies socket.io
+  [.] Build project for deployment
+  [.] Deploy project on live server  
+
